@@ -1,5 +1,5 @@
 from flask import Flask, request
-# webhook test april 29, 2025
+# webhook test server
 app = Flask(__name__)
 
 @app.route('/github-webhook', methods=['POST'])
